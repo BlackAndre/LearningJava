@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Magnets/DrumKit/DrumKit.iml" filepath="$PROJECT_DIR$/Magnets/DrumKit/DrumKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningJava.iml" filepath="$PROJECT_DIR$/LearningJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Magnets/Magnets.iml" filepath="$PROJECT_DIR$/Magnets/Magnets.iml" />
     </modules>
   </component>
 </project>
