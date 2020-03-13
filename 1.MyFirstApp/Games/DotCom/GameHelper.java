@@ -27,7 +27,7 @@ public class GameHelper {
         return inputLine.toLowerCase();
     }
 
-    public ArrayList<String> placeDotCom (int comSize) {
+    public ArrayList<String> placeDotCom (int comSize) { // устанавливает случайно метоположение кораблей
         ArrayList<String> alphaCells = new ArrayList<String>();
         String[] alphacoords = new String[comSize];
         String temp = null;

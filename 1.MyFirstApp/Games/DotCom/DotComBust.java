@@ -11,6 +11,8 @@ public class DotComBust {
     private void setUpGame() {
         // создаем три объекта DotCom , даем имена и помещаем в массив Array
         DotCom one = new DotCom();
-        one.setName("Pet.com");
+        one.setName("Mvideo.ru");
+        DotCom two = new DotCom();
+        two.setName("");
     }
 }
