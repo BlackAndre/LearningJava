@@ -27,7 +27,7 @@ public class GameHelper {
         return inputLine.toLowerCase();
     }
 
-    public ArrayList<String> placeDotCom (int comSize) { // устанавливает случайно метоположение кораблей
+    public ArrayList<String> placeDotCom (int comSize) { // устанавливает случайно местоположение кораблей
         ArrayList<String> alphaCells = new ArrayList<String>();
         String[] alphacoords = new String[comSize];
         String temp = null;
@@ -43,7 +43,7 @@ public class GameHelper {
         }
         while (!success & attemps ++ < 200) {
             location = (int) (Math.random()* gridSize);
-            System.out.println("ПРОБА" + location); //УБРАТЬ ПОСЛЕ ТЕСТА
+            //System.out.println("ПРОБА" + location); //УБРАТЬ ПОСЛЕ ТЕСТА
             int x = 0;
             success = true;
             while (success && x < comSize) {
@@ -57,7 +57,7 @@ public class GameHelper {
                         success = false;
                     }
                 } else {
-                    System.out.println("используется" + location);// закоментировать после теста
+                    //System.out.println("используется" + location);// закоментировать после теста
                     success = false;
                 }
             }
@@ -65,7 +65,7 @@ public class GameHelper {
     int x = 0;
         int row = 0;
         int column = 0;
-        System.out.println("\n");
+       //System.out.println("\n");
         while (x < comSize) {
             grid[coords[x]] = 1;
             row = (int) (coords[x] / gridLength);
@@ -74,10 +74,10 @@ public class GameHelper {
 
             alphaCells.add(temp.concat(Integer.toString(row)));
             x ++;
-            System.out.println(" coord " + x + " = " + alphaCells.get(x - 1));
+            //System.out.println(" coord " + x + " = " + alphaCells.get(x - 1)); // УБРАТЬ, говорить где именно корабли
 
         }
-        System.out.println("\n");
+        //System.out.println("\n");
         return alphaCells;
     }
 }

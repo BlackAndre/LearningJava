@@ -4,11 +4,11 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/1.MyFirstApp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/2. DooBee" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/3. BeerAppshouldbedone" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/4. RandomPhrase" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PoolPuzzle" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/tmp" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/2. DooBee" />
+      <excludeFolder url="file://$MODULE_DIR$/3. BeerAppshouldbedone" />
+      <excludeFolder url="file://$MODULE_DIR$/4. RandomPhrase" />
+      <excludeFolder url="file://$MODULE_DIR$/PoolPuzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
