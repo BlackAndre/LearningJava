@@ -1,5 +1,3 @@
-package MusicApp;
-
 import javax.sound.midi.*;
 
 public class MusicApp {
@@ -16,13 +14,13 @@ public class MusicApp {
             Sequence seq = new Sequence(Sequence.PPQ, 4 );
             Track track = seq.createTrack();
             ShortMessage a = new ShortMessage();
-            a.setMessage(144,1,55,100);
+            a.setMessage(144,1,15,100);
             MidiEvent noteOn = new MidiEvent(a,1);
             track.add(noteOn);
 
             ShortMessage b = new ShortMessage();
             b.setMessage(128,1,44,100);
-            MidiEvent noteOff = new MidiEvent(b, 16);
+            MidiEvent noteOff = new MidiEvent(b, 10);
             track.add(noteOff);
 
             player.setSequence(seq);

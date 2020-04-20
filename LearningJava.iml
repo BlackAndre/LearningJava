@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/4. RandomPhrase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PoolPuzzle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MusicApp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
